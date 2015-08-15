@@ -8,7 +8,7 @@ require "formula"
 class Openssh < Formula
   homepage "http://www.openssh.com/"
   url "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.5p1.tar.gz"
-  version "6.9p1"
+  version "6.5p1"
   sha256 "6e074df538f357d440be6cf93dc581a21f22d39e236f217fcd8eacbb6c896cfe"
 
   option "with-keychain-support", "Add native OS X Keychain and Launch Daemon support to ssh-agent"
